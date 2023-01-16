@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Campo</title>
+</head>
+
+<body>
+    <h1>Calculadora de Campo Quadrado</h1>
+
+    <div id="valor">
+        <span>Insira o comprimento da lateral do terreno: </span>
+        <input type="number" class="inputNumber" id="firstNo">
+    </div>
+    <br>
+    <div id="botao">
+        <input type="button" id="btnCalcular" value="Calcular" onclick="calcular()">
+    </div>
+    <br>
+    <br>
+
+    <div id="area">
+        <p><b>Área do campo :</b></p>
+        <p id="resultadoArea">0</p>
+    </div>
+
+    <br>
+
+    <div id="comprimento">
+        <p><b>Comprimento da cerca a ser comprada :</b></p>
+        <p id="resultadoPerimetro">0</p>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
